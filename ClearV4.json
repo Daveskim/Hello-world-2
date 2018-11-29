@@ -1,0 +1,154 @@
+{
+    "categoryRevisions": {
+        "Form2_Print": 1,
+        "Material_Form2_Print": 1,
+        "Material_Scene": 1,
+        "Material_Supports": 1
+    },
+    "exportRevision": 1,
+    "overrides": {
+        "Form2_Print": {
+            "perimeters_naiveOuterBoundary_enabled": false
+        },
+        "Material_Form2_Print": {
+            "earlyExpose_layerHeight_mm": -1,
+            "fill_baseLaserPower_mW": 96,
+            "fill_baseLaserSpeed_mmps": 2500,
+            "fill_highDefinition_enabled": false,
+            "fill_laserPowerMultiplier_bottomSurfaces": 1,
+            "fill_laserPowerMultiplier_topSurfaces": 1,
+            "fill_modelLaserPower_mW": 96,
+            "fill_modelLaserSpeed_mmps": 2500,
+            "fill_numPasses_bottomSurfaces": 1,
+            "fill_numPasses_topSurfaces": 1,
+            "fill_rotation_baseAngles_degrees": [
+                45,
+                135,
+                225,
+                315
+            ],
+            "fill_rotation_jitterAnglePlusMinus_degrees": 20,
+            "fill_supportLaserPower_mW": 96,
+            "fill_supportLaserSpeed_mmps": 2500,
+            "fill_sweptFillLayerCount": 2,
+            "heater_minimumTemperature_C": 20,
+            "heater_numWipesWhileHeating": 1,
+            "heater_setPoint_C": 35,
+            "heater_startTemperature_C": 31,
+            "passes_delayAfterPerimeters_s": 0,
+            "passes_delayBeforePerimeter_s": 0,
+            "passes_earlyLayers": 1,
+            "passes_firstLayer": 6,
+            "passes_multiDirectionalMultiPass": true,
+            "passes_standardLayers": 1,
+            "peel_postLaserCureWait_s": 3,
+            "peel_squishWaitMaximumCompressed_s": 22.4,
+            "peel_squishWaitMaximum_s": 100,
+            "peel_squishWaitMinimum_s": 1,
+            "perimeters_baseLaserPowers_mW": [
+                96
+            ],
+            "perimeters_baseLaserSpeeds_mmps": [
+                569.1
+            ],
+            "perimeters_modelLaserPowers_mW": [
+                96
+            ],
+            "perimeters_modelLaserSpeeds_mmps": [
+                569.1
+            ],
+            "perimeters_supportLaserPowers_mW": [
+                96
+            ],
+            "perimeters_supportLaserSpeeds_mmps": [
+                480
+            ],
+            "preloadVel": [
+                5,
+                5,
+                5,
+                5,
+                2.5,
+                2,
+                2,
+                1.5,
+                0.5
+            ],
+            "resin_flowMaximum_mLps": 3.333333333,
+            "resin_flowMinimum_mLps": 0.122324159,
+            "resin_levelSenseCorrectionFactor": 1,
+            "resin_useFlexibleHack": false,
+            "resin_viscosityCoefficientA": 10750,
+            "resin_viscosityCoefficientB": -0.098,
+            "slide_unslideBeforeLevelsense": false,
+            "spacing_fillToPerimeter_mm": 0,
+            "spacing_fill_mm": 0.07,
+            "spacing_perimeterCount": 0,
+            "spacing_perimeterToNominalGeometry_mm": 0,
+            "spacing_perimeters_mm": 0.1,
+            "supportedness_maxDisplacement_mm": 0.45,
+            "tank_typesAllowed": [
+                "TANK_TYPE_PDMS",
+                "TANK_TYPE_BLT"
+            ],
+            "wipeOffVel": 250,
+            "wipeOnVel": 250,
+            "wipe_fullWipeEveryNLayers": 4,
+            "wipe_midWipeDwell_s": 0,
+            "wipe_numWipesBeforeLayerZero": 3,
+            "wipe_onlyWipeEveryNLayers": 1,
+            "wipe_totalUpDistanceToClearWave": 20
+        },
+        "Material_Scene": {
+            "buildVolume_worldDimensions_mm": [
+                145,
+                175,
+                145
+            ],
+            "coarseLayers_enabled": false,
+            "coarseLayers_forAllGeometriesUpTo_mm": 0.75,
+            "correctionFactor_x": 1,
+            "correctionFactor_y": 1,
+            "fineTuningCorrectionFactor_z": 1,
+            "fineTuningCorrectionFactor_z_enabled": false,
+            "identifier_layerThickness_mm": 0.1,
+            "identifier_machineTypeId": "FORM-2-0",
+            "identifier_materialCode": "FLGPCL02",
+            "identifier_materialName": "Default",
+            "workspaceVolume_worldDimensions_mm": [
+                145,
+                175,
+                145
+            ]
+        },
+        "Material_Supports": {
+            "baseFlatSpacing_mm": 5,
+            "defaultContactDiameter_mm": 0.6,
+            "defaultRaftThickness_mm": 2,
+            "internalBottomContactPointRadius_mm": 0.3,
+            "internalBottomMaximumRadialLegCount": 2,
+            "leaveUntrussed_distanceFromTip_mm": 2,
+            "maximumContactDiameter_mm": 1.3,
+            "minimumContactDiameter_mm": 0.3,
+            "raftBorderAroundPillars_mm": 0,
+            "supportGeneration_v01_enabled": false,
+            "supportRaft_v01_chamferAngle": 45,
+            "supportRaft_v01_enabled": false,
+            "supportRaft_v02_wallAngle": 45,
+            "supportSkeletonRadius_mm": 0.5599999999999999,
+            "trussWallSupports_enabled": true,
+            "trussWallSupports_maximumPillarSkeletonRadius_mm": 0.84,
+            "trussWallSupports_supportTipSkeletonRadius_mm": 0.7,
+            "v02_maximumTinyPinDiameter_mm": 0.6,
+            "v02_maximumTinyPinHeight_mm": 10,
+            "v02_minimumTinyPinDiameter_mm": 0.3,
+            "v02_minimumTinyPinHeight_mm": 0,
+            "v02_pillarPillarFilletRadius_mm": 0,
+            "v02_pillarRaftFilletRadius_mm": 0,
+            "v02_tinyPinHeightToRadiusRatio": 16,
+            "v02_trussWall_chamferScalingCoefficient": 0.03834824944236852,
+            "v02_trussWall_maximumChamferCutoffHeight": 170,
+            "v02_trussWall_minimumChamferCutoffHeight": 10
+        }
+    }
+}
