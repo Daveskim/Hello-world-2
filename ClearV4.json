@@ -113,8 +113,8 @@
             "fineTuningCorrectionFactor_z_enabled": false,
             "identifier_layerThickness_mm": 0.1,
             "identifier_machineTypeId": "FORM-2-0",
-            "identifier_materialCode": "FLGPCL02",
-            "identifier_materialName": "Default",
+            "identifier_materialCode": "FLGPCL04",
+            "identifier_materialName": "ClearV4",
             "workspaceVolume_worldDimensions_mm": [
                 145,
                 175,
